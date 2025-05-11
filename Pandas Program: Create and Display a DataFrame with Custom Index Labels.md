@@ -17,8 +17,19 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+a=pd.DataFrame(eval(input()))
+print("Data Frame")
+print(a)
+print("Display DataFrame after replacing every negative value with 0")
+a[a<0]=0
+print(a)
+```
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/aca120c0-7544-42ff-bc15-21b64dfdd11b)
+
 ## Result
+Thus the python program has been created successfully.
